@@ -4,12 +4,6 @@ This repository contains the official PyTorch implementation of the paper **"Dia
 
 DGR is a multi-agent framework that employs a **Fake Agent** (Debunker) and a **Real Agent** (Verifier) to retrieve conflicting evidence paths from social propagation graphs. A **Judge Agent**, powered by a Large Language Model (LLM), then performs dialectical reasoning to determine the veracity of the news, integrating multimodal evidence and internal knowledge.
 
-## 🌟 Key Features
-
-*   **Multi-Agent Dialectics**: Simulates a debate process between debunking and verifying perspectives.
-*   **Graph-Based Reasoning**: Retrieves evidence paths from heterogeneous social graphs (User-Post-Image).
-*   **Multimodal Integration**: Aligns text (RoBERTa/LLM) and visual (CLIP) features.
-*   **Interpretable Reports**: Generates natural language explanations for the final verdict using LLMs.
 
 ## 🛠️ Requirements
 
